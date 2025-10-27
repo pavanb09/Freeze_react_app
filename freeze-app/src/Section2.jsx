@@ -1,5 +1,5 @@
 import './Section2.css'
-import Yogurt from './assets/Yogurt.jpg';
+import Yogurt from './assets/yogurt.jpg';
 
 let head = {
     fontSize:"1.2rem",
