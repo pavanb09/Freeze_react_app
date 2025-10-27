@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 1rem; */
+    background-color:rgb(250, 221, 228) ;
+    height: 7rem;
+}
+.nav-icon{
+    width: 9rem;
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+    font-family: roboto;
+}
+
+.nav-buttons>a:hover{
+    color: rgb(246, 91, 117);
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 0.8rem;
+}
